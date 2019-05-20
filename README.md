@@ -1,4 +1,5 @@
 # dcos-diagnostics [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Jenkins](https://jenkins.mesosphere.com/service/jenkins/buildStatus/icon?job=public-dcos-cluster-ops/dcos-diagnostics/dcos-diagnostics-master)](https://jenkins.mesosphere.com/service/jenkins/job/public-dcos-cluster-ops/job/dcos-diagnostics/job/dcos-diagnostics-master/) [![Go Report Card](https://goreportcard.com/badge/github.com/dcos/dcos-diagnostics)](https://goreportcard.com/report/github.com/dcos/dcos-diagnostics)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjanisz%2Fdcos-diagnostics.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjanisz%2Fdcos-diagnostics?ref=badge_shield)
 ## DC/OS Distributed Diagnostics Tool & Aggregation Service
 dcos-diagnostics is a monitoring agent which exposes a HTTP API for querying from the /system/health/v1 DC/OS api. dcos-diagnostics puller collects the data from agents and represents individual node health for things like system resources as well as DC/OS-specific services.
 
@@ -118,3 +119,7 @@ Or from any submodule:
 go test
 ```
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjanisz%2Fdcos-diagnostics.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjanisz%2Fdcos-diagnostics?ref=badge_large)
